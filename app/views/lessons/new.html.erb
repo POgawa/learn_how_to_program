@@ -1,0 +1,12 @@
+<h1>Enter a new lesson:</h1>
+
+<form action="/lessons" method="post">
+  <label for="lesson_number">Lesson number</label>
+  <input id="lesson_number" name="lesson[lesson_number]" type="number">
+  <label for="lesson_name">Name</label>
+  <input id="lesson_name" name="lesson[name]" type="text">
+  <label for="lesson_content">Content</label>
+  <textarea rows="10" cols="100" id="lesson_content" name="lesson[content]" type="text"></textarea>
+  <button>Add lesson</button>
+
+</form>

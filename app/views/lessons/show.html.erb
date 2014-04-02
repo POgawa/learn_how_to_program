@@ -1,0 +1,13 @@
+<h1>Here is lesson <%= @lesson.lesson_number %> <%= @lesson.name %></h1>
+
+
+<p>Here is a brief description: <%= @lesson.content %></p>
+
+<p><a href="/lessons/<%= @lesson.id %>/edit">Update Lesson</a></p>
+
+<a href="/lessons/<%= @lesson.id %>"
+   data-confirm="Confirm Deletion?"
+   data-method="delete"
+   rel="nofollow">Delete</a>
+
+   <p><a href="/lessons">Return to Table of Contents</a></p>
