@@ -46,6 +46,7 @@ class LessonsController < ApplicationController
 
     render('/lessons/destroy.html.erb')
   end
+
 end
 
 
